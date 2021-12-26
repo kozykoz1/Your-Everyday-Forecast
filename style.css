@@ -1,0 +1,351 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 25px;
+    
+}
+
+.container {
+    background-color: rgb(2, 2, 44);
+    color: white;
+    width: 100rem;
+    overflow: hidden;
+    height: fit-content;
+    text-align: center;
+}
+
+.container2 {
+    color: black;
+    background-color: white;
+    width: 500px;
+    height: 1000px;
+    border:  black;
+    margin: 0;
+    padding: 50px;
+    padding-left: 25PX;
+    position: relative;
+    right:100rem;
+    top: 82px;
+    
+
+    
+}
+
+
+.forecast {
+   padding-left: 200px;
+
+
+
+}
+
+.location{
+    position: relative;
+    right:20px;
+    font-size: 35px;
+    text-align: left;
+    bottom: 50px;
+}
+
+
+.select{
+    position: relative;
+    right:75px;
+    bottom:60px;
+    height: 5rem;
+    width: 29.7rem;
+    border: gray 5px solid;
+    border-radius: 5px 5px;
+    font-size: 2rem;
+    text-align: left;
+    
+
+}
+
+.places{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+    
+ 
+}
+
+.places1{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places2{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places3{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places4{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places5{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places6{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.places7{
+    position: relative;
+    width: 465px;
+    bottom:90px;
+    background-color:gray;
+    border: none white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+button {
+    height: 40px;
+    width: 29rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    background-color: rgb(36, 89, 170);
+    color: white;
+    position: relative;
+    bottom: 80px;
+    margin-right: 25px;
+    right: 20px;
+  
+}
+
+
+
+
+
+
+
+.ticket {
+    color: black;
+    background-color: white;
+    width: 1100px;
+    height: 425px;
+    border: solid black;
+    margin: 0;
+    padding: 25px;
+    position: relative;
+    right:100rem;
+    top: 82px;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+    border-width: 3px;
+}
+
+
+
+.div,ul,p {
+    margin: 50px;
+    text-align: left;
+    position: relative;
+    right:80px;
+    
+}
+
+.day{
+    position:relative;
+    top:33rem;
+    right:165rem;
+}
+
+.degrees{
+    background-color: rgb(13, 199, 13);
+    width: 60px;
+    vertical-align: baseline;
+    position: relative;
+    bottom: 75px;
+    left:70px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.warm {
+    color: black;
+    background-color: rgb(35, 15, 146);
+    width: 300px;
+    height: 400px;
+    border: none;
+    margin: 0px;
+    padding-left: 30px;
+    position: relative;
+    right:183.5rem;
+    top: 40rem;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+
+    
+}
+.froze{
+    color: black;
+    background-color: rgb(35, 15, 146);
+    width: 300px;
+    height: 402px;
+    border: none;
+    margin: 5px;
+    padding-left: 30px;
+    position: relative;
+    right:164.5rem;
+    top:13.3rem;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+    
+}
+.hot {
+    color: black;
+    background-color: rgb(35, 15, 146);
+    width: 300px;
+    height: 400px;
+    border: none;
+    margin: 10px;
+    padding-left: 30px;
+    position: relative;
+    right:146rem;
+    bottom: 13.3rem;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+    
+}
+.cold {
+    color: black;
+    background-color: rgb(35, 15, 146);
+    width: 300px;
+    height: 400px;
+    border: none;
+    margin: 10px;
+    padding-left: 30px;
+    position: relative;
+    right:127rem;
+    bottom: 40rem;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+    
+}
+.blaze {
+    color: black;
+    background-color: rgb(35, 15, 146);
+    width: 300px;
+    height: 400px;
+    border: none;
+    margin: 10px;
+    padding-left: 30px;
+    position: relative;
+    right:108rem;
+    bottom: 66.5rem;
+    text-align: left;
+    font-size:  20px;
+    font-style: bold;
+    
+}
