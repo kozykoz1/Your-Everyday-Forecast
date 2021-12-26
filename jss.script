@@ -1,0 +1,13 @@
+const API_KEY = "a27b27e733cb547273edc4fdf7941a1c"
+
+function getWeatherData () (
+    navigator. geolocation.getCurrentPosition(success) => (
+       console.log(success);
+
+       let(latitude, longitude ) = success.coords;
+
+       fetch("https://api.openweathermap.org/data/2.5/onecall?lat=$(longitude){lat}&lon={lon}&exclude={part}&appid={API_KEY}" )
+  
+       console.log(data)
+    )
+)
